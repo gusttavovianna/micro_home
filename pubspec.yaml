@@ -8,6 +8,8 @@ environment:
   flutter: ">=1.17.0"
 
 dependencies:
+  flutter:
+    sdk: flutter
   micro_core:
     git:
       url: https://github.com/gusttavovianna/micro_core.git
@@ -16,10 +18,8 @@ dependencies:
   base_ui:
     git:
       url: https://github.com/gusttavovianna/base_ui.git
-      ref: v1.0.0  
+      ref: v1.0.0 
       
-  flutter:
-    sdk: flutter
 
 dev_dependencies:
   flutter_test:
