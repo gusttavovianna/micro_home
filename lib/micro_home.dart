@@ -1,0 +1,1 @@
+export 'app/micro_home_resolver.dart';
